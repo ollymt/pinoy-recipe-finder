@@ -1,0 +1,21 @@
+.checkbox {
+    min-width: 32px !important;
+    min-height: 32px !important;
+    border-radius: 5px;
+    justify-content: center;
+    align-content: center;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.unchecked {
+    background-color: #D94F04;
+    color: #F4E2DE;
+    transition: ease-in-out 0.2s;
+}
+
+.checked {
+    background-color: #F4E2DE;
+    color: #F4E2DE;
+    transition: ease-in-out 0.2s;
+}
