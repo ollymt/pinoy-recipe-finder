@@ -6,7 +6,7 @@
 
 .carousel {
   display: flex;
-  overflow-x: scroll;
+  overflow-x: hidden;
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
   justify-content: start;
@@ -30,21 +30,25 @@
 
 .carousel-text {
   position: absolute;
-  display: flex;
-  bottom: 0px;
-  left: 0px;
+  bottom: 0;
+  left: 0;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
-
+  display: flex;
   justify-content: space-between;
-  align-items: center;
-  gap: 1rem; /* optional, adds some space between text + button */
+  align-items: flex-end; /* push everything inside down */
+  background: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 1)
+  );
+  padding: 1rem; /* optional, for spacing */
 }
 
 .carousel-text-cont {
-  color: white;
+  color: black;
   justify-self: start;
   padding-left: 1rem;
+  padding-top: 3rem;
 }
 
 .carousel-text-cont h2 {
@@ -62,9 +66,10 @@
 }
 
 .button-cont {
-  justify-content: end;
-  padding-right: 10px;
   display: flex;
-  flex-direction: row;
+  justify-content: flex-end; /* horizontal alignment */
+  align-items: stretch;     /* vertical alignment */
+  height: 100%;              /* make it take full height of parent */
   gap: 5px;
+  padding-right: 10px;
 }

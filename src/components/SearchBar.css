@@ -16,6 +16,10 @@
     justify-self: center;
 
     margin-top: 40px;
+
+    position: sticky;  /* this is the magic */
+    top: 1.5rem;         /* distance from the top when it sticks */
+    z-index: 100000;      /* make sure it stays on top of other elements */
 }
 
 .searchbar-cont:hover {

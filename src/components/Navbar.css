@@ -46,8 +46,38 @@ ul {
     justify-content: center;
     align-content: center;
     color: #D94F04;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 .nav-link.active {
     color: #F4E2DE;
+}
+
+.nav-fav-button-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Needed for absolute positioning of the count */
+}
+
+.nav-fav-button-count {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    font-weight: bold;
+    color: white !important;
+    background-color: #D94F04;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    z-index: 10002;
 }

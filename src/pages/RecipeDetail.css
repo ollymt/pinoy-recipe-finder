@@ -73,3 +73,13 @@ li {
   flex-direction: column;
   text-align: center;
 }
+
+.button-container {
+  display: flex;
+  width: fit-content;
+  justify-content: end;
+}
+
+.basic-detail-cont {
+  justify-items: center;
+}
