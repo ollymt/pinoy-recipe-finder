@@ -11,7 +11,7 @@ export default function RecipeDetail() {
   useEffect(() => {
     fetch("/data/recipes.json")
       .then((res) => res.json())
-      .then((data) => setRecipe(data[id]))
+      .then((data) => setRecipe(data[id - 1]))
       .catch((err) => console.error("error loading recipe", err));
   }, [id]);
 

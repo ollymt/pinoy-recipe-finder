@@ -1,0 +1,24 @@
+.animated-card {
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* For cards that are being filtered out */
+.my-masonry-grid .exiting {
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.3s ease-in-out;
+}
+
+/* For cards that are entering */
+.my-masonry-grid .entering {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.my-masonry-grid .entering.active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+}
