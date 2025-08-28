@@ -8,49 +8,49 @@ const FavoritesContext = createContext();
 
 // 2. create the provider
 export function FavoritesProvider({ children }) {
-  const [favorites, setFavorites] = useState([]);
+    const [favorites, setFavorites] = useState([]);
 
-  // add to favorites
-  const addFavorite = (recipe) => {
-    setFavorites((prev) => [...prev, recipe]);
-    feedbackSound.currentTime = 0;
-    feedbackSound.play()
-    toast.success(`Added ${recipe.name} to Favorites!`)
-  };
+    // add to favorites
+    const addFavorite = (recipe) => {
+        setFavorites((prev) => [...prev, recipe]);
+        feedbackSound.currentTime = 0;
+        feedbackSound.play()
+        toast.success(`Added ${recipe.name} to Favorites!`)
+    };
 
-  // remove from favorites
-  const removeFavorite = (id) => {
-    // find the recipe before removing
-    const recipeToRemove = favorites.find((recipe) => recipe.id === id);
-    if (!recipeToRemove) return;
+    // remove from favorites
+    const removeFavorite = (id) => {
+        // find the recipe before removing
+        const recipeToRemove = favorites.find((recipe) => recipe.id === id);
+        if (!recipeToRemove) return;
 
-    // remove it
-    setFavorites((prev) => prev.filter((recipe) => recipe.id !== id));
+        // remove it
+        setFavorites((prev) => prev.filter((recipe) => recipe.id !== id));
 
-    // play sound
-    feedbackSound.currentTime = 0;
-    feedbackSound.play();
+        // play sound
+        feedbackSound.currentTime = 0;
+        feedbackSound.play();
 
-    // show toast with the name
-    toast.error(`Removed ${recipeToRemove.name} from Favorites!`);
-  };
+        // show toast with the name
+        toast.error(`Removed ${recipeToRemove.name} from Favorites!`);
+    };
 
 
-  // check if recipe is in favorites
-  const isFavorite = (id) => {
-    return favorites.some((recipe) => recipe.id === id);
-  };
+    // check if recipe is in favorites
+    const isFavorite = (id) => {
+        return favorites.some((recipe) => recipe.id === id);
+    };
 
-  return (
-    <FavoritesContext.Provider
-      value={{ favorites, addFavorite, removeFavorite, isFavorite }}
-    >
-      {children}
-    </FavoritesContext.Provider>
-  );
+    return (
+        <FavoritesContext.Provider
+            value={{ favorites, addFavorite, removeFavorite, isFavorite }}
+        >
+            {children}
+        </FavoritesContext.Provider>
+    );
 }
 
 // 3. custom hook for easy use
 export function useFavorites() {
-  return useContext(FavoritesContext);
+    return useContext(FavoritesContext);
 }

@@ -6,18 +6,18 @@ import RecipeGrid from "../components/RecipeGrid"
 import Navbar from "../components/Navbar"
 
 export default function HomePage() {
-  const [searchQuery, setSearchQuery] = useState("")
+    const [searchQuery, setSearchQuery] = useState("")
 
-  return (
-    <>
-      <FeaturedCarousel />
-      <div style={{
-        marginTop: "2rem"
-      }}>
-        <h1>Recipify</h1>
-      </div>
-      <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
-      <RecipeGrid searchQuery={searchQuery} />
-    </>
-  )
+    return (
+        <>
+            <FeaturedCarousel />
+            <div style={{
+                marginTop: "2rem"
+            }}>
+                <h1>Recipify</h1>
+            </div>
+            <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
+            <RecipeGrid searchQuery={searchQuery} />
+        </>
+    )
 }
