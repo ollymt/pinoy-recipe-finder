@@ -77,7 +77,6 @@ export default function RecipeDetail() {
           </ul>
         </div>
       </div>
-      <Navbar />
     </div>
   );
 }

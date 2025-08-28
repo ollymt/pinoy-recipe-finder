@@ -40,7 +40,7 @@ export default function RecipeGrid({ searchQuery, showFavoritesOnly = false }) {
   }
 
   return (
-    <div style={{ marginTop: "40px", marginBottom: "10rem", padding: "0 20px" }}>
+    <div style={{ marginTop: "40px", marginBottom: "1rem", padding: "0 20px" }}>
       {showFavoritesOnly && filteredRecipes.length === 0 && (
         <div style={{ textAlign: 'center', padding: '40px' }}>
           <h1 className="no-recipe-img">🦗</h1>
@@ -57,7 +57,7 @@ export default function RecipeGrid({ searchQuery, showFavoritesOnly = false }) {
         <div style={{ textAlign: 'center', padding: '40px' }}>
           <h1 className="no-recipe-img">🫥</h1>
           <h3>baby im not even here, im a hallucination</h3>
-          <p>{searchQuery} did not yield any results.</p>
+          <p>"{searchQuery}" did not yield any results.</p>
         </div>
       )}
 

@@ -1,5 +1,5 @@
 .navbar {
-    position: fixed;       /* take it out of normal flow */
+    position: sticky;       /* take it out of normal flow */
     bottom: 30px;          /* distance from bottom */
     left: 50%;             /* move it to the horizontal center */
     transform: translateX(-50%); /* actually center it */

@@ -17,7 +17,7 @@
 .detail-cont {
     display: flex;
     flex-direction: row;
-    padding-bottom: 7rem;
+    padding-bottom: 1rem;
 }
 
 .ingredients-cont {

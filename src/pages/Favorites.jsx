@@ -13,7 +13,6 @@ export default function Favorites() {
         <> 
             <FavoritesBanner />
             <RecipeGrid showFavoritesOnly="true" />
-            <Navbar />
         </>
     )
 }

@@ -15,16 +15,26 @@ export function FavoritesProvider({ children }) {
     setFavorites((prev) => [...prev, recipe]);
     feedbackSound.currentTime = 0;
     feedbackSound.play()
-    toast.success("Added to Favorites!")
+    toast.success(`Added ${recipe.name} to Favorites!`)
   };
 
   // remove from favorites
   const removeFavorite = (id) => {
+    // find the recipe before removing
+    const recipeToRemove = favorites.find((recipe) => recipe.id === id);
+    if (!recipeToRemove) return;
+
+    // remove it
     setFavorites((prev) => prev.filter((recipe) => recipe.id !== id));
+
+    // play sound
     feedbackSound.currentTime = 0;
-    feedbackSound.play()
-    toast.error("Removed from Favorites!")
+    feedbackSound.play();
+
+    // show toast with the name
+    toast.error(`Removed ${recipeToRemove.name} from Favorites!`);
   };
+
 
   // check if recipe is in favorites
   const isFavorite = (id) => {
