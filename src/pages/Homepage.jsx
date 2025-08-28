@@ -3,7 +3,6 @@ import { useState } from "react"
 import FeaturedCarousel from "../components/FeaturedCarousel"
 import SearchBar from "../components/SearchBar"
 import RecipeGrid from "../components/RecipeGrid"
-import Navbar from "../components/Navbar"
 
 export default function HomePage() {
     const [searchQuery, setSearchQuery] = useState("")

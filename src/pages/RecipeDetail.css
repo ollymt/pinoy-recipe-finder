@@ -86,3 +86,25 @@ li {
 .basic-detail-cont {
     justify-items: center;
 }
+
+.loading-cont {
+    height: 100vh;
+    align-content: center;
+    user-select: none;
+}
+
+.loading-anim {
+    display: inline-block;
+    /* ensures transform works properly */
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

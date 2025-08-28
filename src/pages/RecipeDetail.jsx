@@ -2,7 +2,6 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "./RecipeDetail.css";
 import Checkbox from "../components/Checkbox";
-import Navbar from "../components/Navbar";
 import Button from "../components/Button";
 import { useFavorites } from "../contexts/FavoriteContext";
 
@@ -10,7 +9,7 @@ export default function RecipeDetail() {
     const { id } = useParams();
     const [recipe, setRecipe] = useState(null);
 
-    const { favorites, addFavorite, removeFavorite, isFavorite } = useFavorites()
+    const { addFavorite, removeFavorite, isFavorite } = useFavorites()
 
     const handleClick = () => {
         if (isFavorite(recipe.id)) {
@@ -27,7 +26,10 @@ export default function RecipeDetail() {
             .catch((err) => console.error("error loading recipe", err));
     }, [id]);
 
-    if (!recipe) return <div>Loading...</div>;
+    if (!recipe) return <div className="loading-cont">
+            <h1 className="no-recipe-img loading-anim">⏳</h1>
+            <h3>loading...</h3>
+        </div>;
 
     return (
         <div className="recipe-detail">

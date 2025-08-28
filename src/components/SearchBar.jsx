@@ -9,7 +9,7 @@ export default function SearchBar({ searchQuery, setSearchQuery }) {
             </svg>
             <input
                 type="text"
-                placeholder="What are we cooking?"
+                placeholder="what we cookin?"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="search-field"
