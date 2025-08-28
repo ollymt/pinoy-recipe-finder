@@ -8,16 +8,21 @@ import RecipeDetail from './pages/RecipeDetail'
 import Navbar from './components/Navbar'
 import { Route, Router, Routes } from 'react-router-dom'
 import Favorites from './pages/Favorites'
+import { Toaster, toast } from 'react-hot-toast'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <Routes>
-      <Route path='/' element={<HomePage />} />
-      <Route path='/recipe/:id' element={<RecipeDetail />} />
-      <Route path='/favorites' element={<Favorites />} />
-    </Routes>
+    <>
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/recipe/:id' element={<RecipeDetail />} />
+        <Route path='/favorites' element={<Favorites />} />
+      </Routes>
+
+      <Toaster position="top-right" reverseOrder={false}/>
+    </>
   )
 }
 

@@ -1,4 +1,5 @@
 import { createContext, useState, useContext } from "react";
+import { Toaster, toast } from 'react-hot-toast'
 
 // 1. create the context
 const FavoritesContext = createContext();
@@ -10,11 +11,13 @@ export function FavoritesProvider({ children }) {
   // add to favorites
   const addFavorite = (recipe) => {
     setFavorites((prev) => [...prev, recipe]);
+    toast.success("Added to Favorites!")
   };
 
   // remove from favorites
   const removeFavorite = (id) => {
     setFavorites((prev) => prev.filter((recipe) => recipe.id !== id));
+    toast.error("Removed from Favorites!")
   };
 
   // check if recipe is in favorites

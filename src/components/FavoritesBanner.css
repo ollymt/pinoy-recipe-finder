@@ -1,0 +1,48 @@
+.favorites-banner {
+    width: 100vw;
+    height: 70vh;
+
+    background-image: url("https://thumbs.dreamstime.com/b/fast-food-orange-seamless-pattern-vector-eps-120289105.jpg");
+    background-repeat: repeat;
+    background-size: 200px;
+
+    color: #ffffff;
+    align-content: end;
+
+
+    display: flex;
+    position: relative; /* <--- important so overlay sticks to it */
+    overflow: hidden;   /* optional: hides overlay spill */
+}
+
+.favorites-banner p {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.favorites-banner h1 {
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.fav-banner-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  padding-top: 2rem;
+  
+  background: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 1)
+  );
+
+  color: black;
+  z-index: 2; /* make sure it's above any text/image layers */
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
