@@ -158,5 +158,208 @@
     "description": "A Filipino chicken stew made from chicken in coconut milk with green papaya and leafy vegetables.",
     "ingredients": ["1 kg chicken, cut up", "2 cups coconut milk", "1 small green papaya, wedged", "Ginger", "Onion", "Garlic", "Siling haba (long green chili)"],
     "instructions": ["Sauté ginger, garlic, and onion. Add chicken and cook until color changes.", "Pour in coconut milk and bring to a simmer.", "Add papaya and chili, and cook until chicken and papaya are tender."]
+  },
+  {
+    "id": 21,
+    "name": "Cassava Cake",
+    "image": "https://panlasangpinoy.com/wp-content/uploads/2009/08/cassava-cake-1.jpg",
+    "description": "A sweet and chewy baked dessert made from grated cassava, coconut milk, and condensed milk, usually topped with a creamy custard layer.",
+    "ingredients": [
+      "2 cups grated cassava",
+      "1 cup coconut milk",
+      "1 cup condensed milk",
+      "1/2 cup evaporated milk",
+      "1/2 cup sugar",
+      "2 eggs",
+      "1/4 cup melted butter",
+      "1/2 cup grated cheese"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F (175°C).",
+      "In a bowl, mix cassava, coconut milk, condensed milk, evaporated milk, sugar, eggs, and butter.",
+      "Pour mixture into a greased baking pan.",
+      "Bake for 40–50 minutes or until set.",
+      "Remove from oven, add grated cheese on top, then broil for 5 minutes until golden."
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Bibingka",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/1048Bibingka_Puto_bumbong_making_Philippines_04.jpg/1200px-1048Bibingka_Puto_bumbong_making_Philippines_04.jpg",
+    "description": "A traditional rice cake made with rice flour and coconut milk, baked in banana leaves and topped with salted egg and cheese.",
+    "ingredients": [
+      "1 cup rice flour",
+      "1/2 cup all-purpose flour",
+      "1/2 cup sugar",
+      "1 cup coconut milk",
+      "1/2 cup evaporated milk",
+      "2 eggs",
+      "2 tsp baking powder",
+      "Salted egg slices",
+      "Grated cheese",
+      "Banana leaves"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F (190°C).",
+      "Line baking tins with banana leaves.",
+      "In a bowl, whisk rice flour, all-purpose flour, sugar, baking powder, eggs, coconut milk, and evaporated milk.",
+      "Pour batter into banana leaf-lined tins.",
+      "Top with salted egg and cheese.",
+      "Bake for 20–25 minutes until golden brown."
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Kutsinta",
+    "image": "https://www.pinoyrecipe.net/wp-content/uploads/2015/11/Kutsinta-Recipe-1.jpg",
+    "description": "A chewy steamed rice cake with a jelly-like texture, often served with grated coconut on top.",
+    "ingredients": [
+      "1 cup rice flour",
+      "1 cup all-purpose flour",
+      "1 1/2 cups brown sugar",
+      "3 cups water",
+      "2 tsp lye water",
+      "Grated coconut (for topping)"
+    ],
+    "instructions": [
+      "Mix rice flour, all-purpose flour, brown sugar, and water in a bowl.",
+      "Add lye water and mix until smooth.",
+      "Pour into greased puto molds.",
+      "Steam for 40 minutes until firm.",
+      "Cool slightly and serve with grated coconut."
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Pichi-Pichi",
+    "image": "https://images.food52.com/dEiLRxQUnsTGbRP0gypoRy-Z3M8=/6ef63fb7-e7b4-4213-81b9-bb022e17cce0--pichi-pichi.jpg",
+    "description": "A gelatinous dessert made from grated cassava and sugar, steamed and rolled in grated coconut or cheese.",
+    "ingredients": [
+      "2 cups grated cassava",
+      "1 cup sugar",
+      "2 cups water",
+      "1 tsp pandan extract",
+      "Grated coconut or grated cheese (for coating)"
+    ],
+    "instructions": [
+      "Combine cassava, sugar, water, and pandan extract in a mixing bowl.",
+      "Pour mixture into individual molds.",
+      "Steam for 30–40 minutes until translucent.",
+      "Let cool, then roll in grated coconut or cheese."
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Maja Blanca",
+    "image": "https://dirtydishesmessykisses.com/wp-content/uploads/2024/08/maja-blanca-coconut-pudding-recipe-1722499079.jpg",
+    "description": "A creamy coconut pudding topped with latik (toasted coconut curds) or grated cheese.",
+    "ingredients": [
+      "4 cups coconut milk",
+      "1 cup evaporated milk",
+      "1 cup condensed milk",
+      "1/2 cup cornstarch",
+      "1/2 cup sugar",
+      "1/2 cup grated cheese or latik"
+    ],
+    "instructions": [
+      "In a pot, combine coconut milk, evaporated milk, condensed milk, sugar, and cornstarch.",
+      "Cook over medium heat, stirring constantly until thickened.",
+      "Pour mixture into a greased dish.",
+      "Allow to cool and set.",
+      "Top with grated cheese or latik before serving."
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Sago't Gulaman",
+    "image": "https://aiyamatcharecipes.com/images/recipes/image_matcha-sagot-gulaman_1633036802.jpg",
+    "description": "A popular Filipino refreshment made with sweetened tapioca pearls, gelatin cubes, and arnibal (caramelized sugar syrup) served over ice.",
+    "ingredients": [
+      "1 cup tapioca pearls",
+      "1 cup red or black gulaman (gelatin), cubed",
+      "1 cup brown sugar",
+      "4 cups water",
+      "1 tsp vanilla extract",
+      "Crushed ice"
+    ],
+    "instructions": [
+      "Cook tapioca pearls according to package instructions until translucent.",
+      "Dissolve gulaman powder in water, let it set, then cut into cubes.",
+      "In a saucepan, caramelize brown sugar until melted, then add water and vanilla extract to make arnibal syrup.",
+      "In a tall glass, combine tapioca pearls, gulaman cubes, and arnibal syrup.",
+      "Add crushed ice and mix well before serving."
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Buko Juice",
+    "image": "https://tandobeverage.com/wp-content/uploads/2021/01/coconut-water-1.jpg",
+    "description": "A refreshing tropical drink made from fresh young coconut water and tender coconut meat.",
+    "ingredients": [
+      "2 cups fresh buko (young coconut) water",
+      "1/2 cup young coconut meat, shredded",
+      "2 tsp sugar or honey (optional)",
+      "Ice cubes"
+    ],
+    "instructions": [
+      "In a pitcher, combine fresh buko water and shredded coconut meat.",
+      "Add sugar or honey if desired and stir until dissolved.",
+      "Serve in a glass with ice cubes."
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Calamansi Juice",
+    "image": "https://www.greedygirlgourmet.com/wp-content/uploads/2021/12/filippino-limeade-recipe.jpg",
+    "description": "A zesty and refreshing drink made from fresh calamansi, perfect for hot weather.",
+    "ingredients": [
+      "10 calamansi, juiced",
+      "4 cups cold water",
+      "1/2 cup sugar (adjust to taste)",
+      "Ice cubes"
+    ],
+    "instructions": [
+      "Cut calamansi in half and squeeze out the juice, removing seeds.",
+      "In a pitcher, mix calamansi juice, cold water, and sugar until dissolved.",
+      "Pour over ice and serve chilled."
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Taho",
+    "image": "https://www.thelittleepicurean.com/wp-content/uploads/2019/08/taho-tofu-dessert-500x375.jpg",
+    "description": "A warm and sweet Filipino comfort drink made with fresh silken tofu, arnibal syrup, and sago pearls.",
+    "ingredients": [
+      "2 cups silken tofu (steamed)",
+      "1 cup tapioca pearls (sago)",
+      "1 cup brown sugar",
+      "1 cup water",
+      "1 tsp vanilla extract"
+    ],
+    "instructions": [
+      "Cook sago pearls until translucent and set aside.",
+      "In a saucepan, caramelize brown sugar, add water and vanilla to make arnibal syrup.",
+      "Steam silken tofu until warm and soft.",
+      "In a cup, layer tofu, add sago pearls, and drizzle with arnibal syrup.",
+      "Serve warm with a spoon or straw."
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Salabat (Ginger Tea)",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRotin6KluriDdqKQDjdefCMxaR3NwHkHyZ-Q&s",
+    "description": "A soothing Filipino ginger tea traditionally served for colds, sore throat, or simply to warm up on rainy days.",
+    "ingredients": [
+      "2 cups water",
+      "2 tbsp fresh ginger, sliced",
+      "2 tbsp honey or brown sugar",
+      "1 slice lemon (optional)"
+    ],
+    "instructions": [
+      "Bring water to a boil in a saucepan.",
+      "Add ginger slices and simmer for 10–15 minutes.",
+      "Strain into a mug and sweeten with honey or brown sugar.",
+      "Add a slice of lemon if desired and serve hot."
+    ]
   }
 ]

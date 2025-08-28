@@ -17,6 +17,7 @@
 .detail-cont {
     display: flex;
     flex-direction: row;
+    padding-bottom: 7rem;
 }
 
 .ingredients-cont {
@@ -46,11 +47,14 @@ li {
 .image-container {
   position: relative;
   width: 100%;
+  max-height: 80vh;
 }
 
 .image-container img {
   width: 100%;
   display: block;
+  max-height: 80vh;
+  object-fit: cover; /* crops instead of squishing */
 }
 
 .overlay {
