@@ -1,5 +1,5 @@
 import { createContext, useState, useContext } from "react";
-import { Toaster, toast } from 'react-hot-toast'
+import { toast } from 'react-hot-toast'
 
 const feedbackSound = new Audio("/sounds/feedback.mp3")
 

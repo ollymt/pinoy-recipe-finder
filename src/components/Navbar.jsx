@@ -1,7 +1,5 @@
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import "./Navbar.css";
-import Button from "./Button";
-import SearchBar from "./SearchBar";
 import { useFavorites } from "../contexts/FavoriteContext";
 
 export default function Navbar() {

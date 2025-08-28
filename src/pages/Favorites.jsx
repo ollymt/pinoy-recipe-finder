@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import RecipeGrid from '../components/RecipeGrid';
 import FavoritesBanner from '../components/FavoritesBanner';
 

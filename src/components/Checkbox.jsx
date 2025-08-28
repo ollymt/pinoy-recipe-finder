@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import './Checkbox.css'
 
 export default function Checkbox(defaultChecked = "false") {
