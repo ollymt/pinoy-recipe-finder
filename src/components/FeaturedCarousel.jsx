@@ -66,7 +66,7 @@ export default function FeaturedCarousel() {
                                                     <>
                                                         <svg
                                                             xmlns="http://www.w3.org/2000/svg"
-                                                            width="48"
+                                                            width="40"
                                                             height="32"
                                                             fill="currentColor"
                                                             className="bi bi-eye-fill"
@@ -88,7 +88,7 @@ export default function FeaturedCarousel() {
                                                     {favorite ? (
                                                         <svg
                                                             xmlns="http://www.w3.org/2000/svg"
-                                                            width="32"
+                                                            width="28"
                                                             height="24"
                                                             fill="currentColor"
                                                             className="bi bi-star-fill" // Fixed: class to className
@@ -99,7 +99,7 @@ export default function FeaturedCarousel() {
                                                     ) : (
                                                         <svg
                                                             xmlns="http://www.w3.org/2000/svg"
-                                                            width="32"
+                                                            width="28"
                                                             height="24"
                                                             fill="currentColor"
                                                             className="bi bi-star"
